@@ -1,40 +1,40 @@
 ---
+homeHeaderType: text
 header:
   - type: text
-    height: 235
+    height: 200
     paddingX: 50
     paddingY: 0
-    align: left
+    align: center
     title:
-      - FalcoN's Blog
-      - header title2
+      - HUGO
     subtitle:
-      - FalcoN의 공부한 내용을 정리하는 블로그입니다.
-      - header subtitle2
-    titleColor: 
+      - The world’s fastest framework for building websites
+    titleColor: # #123456, red
     titleShadow: false
     titleFontSize: 44
-    subtitleColor:
+    subtitleColor: # #123456, red
     subtitleCursive: false
     subtitleFontSize: 16
     spaceBetweenTitleSubtitle: 20
   
   - type: img
-    image: images/header/background.png
+    imageSrc: images/header/background.jpg # your image file path: root/static/images/header/background.jpg
+    imageSize: cover # auto|length|cover|contain|initial|inherit
+    imageRepeat: no-repeat # repeat|repeat-x|repeat-y|no-repeat|initial|inherit
+    imagePosition: center # x% y%| xpos ypos| left top| center bottom| ...
     height: 235
     paddingX: 50
     paddingY: 0
     align: center
     title:
-      - FalcoN's Blog
-      - header title2
+      -
     subtitle:
-      - FalcoN의 공부한 내용을 정리하는 블로그입니다.
-      - header subtitle2
-    titleColor: 
+      -
+    titleColor:
     titleShadow: false
     titleFontSize: 44
-    subtitleColor: 
+    subtitleColor:
     subtitleCursive: false
     subtitleFontSize: 16
     spaceBetweenTitleSubtitle: 20
@@ -43,17 +43,20 @@ header:
     height: 235
     options:
         startSlide: 0
-        auto: 5000
-        draggable: true
-        autoRestart: true
-        continuous: true
+        auto: 5000 # auto slide delay 5000ms(5sec)
+        draggable: true # slide draggable
+        autoRestart: true # restart after drag finished
+        continuous: true # last to first
         disableScroll: true
         stopPropagation: true
     slide:
       - paddingX: 50
         paddingY: 0
         align: left
-        image: images/header/background.png
+        imageSrc: images/header/background.jpg
+        imageSize: cover
+        imageRepeat: no-repeat
+        imagePosition: center
         title:
           - header title1
         subtitle:
@@ -65,7 +68,10 @@ header:
       - paddingX: 50
         paddingY: 0
         align: center
-        image: images/header/background.png
+        imageSrc: images/header/background.jpg
+        imageSize: cover
+        imageRepeat: no-repeat
+        imagePosition: center
         title:
           - header title2
         subtitle:
@@ -77,7 +83,10 @@ header:
       - paddingX: 50
         paddingY: 0
         align: right
-        image: images/header/background.png
+        imageSrc: images/header/background.jpg
+        imageSize: cover
+        imageRepeat: no-repeat
+        imagePosition: center
         title:
           - header title3
         subtitle:

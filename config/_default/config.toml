@@ -2,8 +2,8 @@ baseURL = "http://FalcoN1995.github.io/"
 title = "FalcoN's blog"
 theme = "zzo"
 
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+defaultContentLanguage = "ko"
+defaultContentLanguageInSubdir = false
 hasCJKLanguage = true
 
 summaryLength = 70
