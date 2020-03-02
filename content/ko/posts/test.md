@@ -2,7 +2,7 @@
 title: "Posts"
 date: 2020-02-19T14:25:56+09:00
 description:
-draft: true
+draft: false
 hideToc: false
 enableToc: true
 enableTocContent: false
