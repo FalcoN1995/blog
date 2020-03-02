@@ -1,5 +1,4 @@
 ---
-homeHeaderType: text
 header:
   - type: text
     height: 200
@@ -7,9 +6,9 @@ header:
     paddingY: 0
     align: center
     title:
-      - HUGO
+      - FalcoN's Blog
     subtitle:
-      - The world’s fastest framework for building websites
+      - Blogs that organize what I studied.
     titleColor: # #123456, red
     titleShadow: false
     titleFontSize: 44
